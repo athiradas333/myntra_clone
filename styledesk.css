@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Assistant;
+    font-weight: normal;
+    src: url(fonts/Assistant-Regular.woff);
+}
+
+@font-face {
+    font-family: Assistant;
+    font-weight: 700;
+    src: url(fonts/Assistant-Bold.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant;
+}
+
+
+
+
+.desktop-container {
+    display: block;
+    color: #fff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* z-index: 10; */
+
+}
+
+.desk-bound-wrap {
+    margin: auto;
+    min-width: 980px;
+    line-height: 80px;
+}
+
+.desktop-logo-container {
+
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 4%;
+}
+
+.logo-block {
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    background-position: -462px 0;
+    width: 53px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.desk-navbar-left-side {
+
+    display: block;
+    float: left;
+    line-height: 80px;
+    height: 80px;
+    margin: 0 0 0 1%;
+    box-sizing: border-box;
+
+}
+
+.desk-nav-contents-list {
+    display: inline-block;
+    float: left;
+    height: 81.33px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+
+
+
+}
+
+.desk-nav-list-single-block {
+
+    float: left;
+    border: hidden;
+    text-align: center;
+    height: 81.33px;
+    box-sizing: border-box;
+
+
+}
+
+.desk-nav-list-wrapper {
+    display: inline;
+    box-sizing: border-box;
+
+
+
+
+
+}
+
+.desk-nav-final-list-block {
+    padding: 0 17px 28px;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+
+}
+
+.new-text-desk {
+    display: inline;
+    margin: 0 0 34px -15px;
+    font-size: 10px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff3f6c;
+    content: "new";
+    box-sizing: border-box;
+}
+
+
+.nav-desk-right-side {
+    float: right;
+    display: flex;
+    line-height: 0;
+    height: 40px;
+    margin: 20px 30px 0 10px;
+}
+
+.desk-nav-user-icon {
+    position: relative;
+    height: 60px;
+    margin: 0 20px 0 15px;
+}
+
+.user-icon-container-desk {
+    padding: 0 12px 0 17px;
+    position: relative;
+    display: flex;
+    height: 40px;
+}
+
+.user-icon-img-desk {
+    margin: 10px 0 0;
+    position: absolute;
+    bottom: 13px;
+    left: 5px;
+    display: block;
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    width: 24px;
+    height: 24px;
+    background-position: -298px -56px;
+    background-size: 1404px 105px;
+}
+
+.desk-profile {
+    color: #000;
+    position: absolute;
+    bottom: 4px;
+    left: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 10px;
+    line-height: 6px;
+}
+
+.desk-wishlist{
+    
+}
