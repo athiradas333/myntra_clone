@@ -433,6 +433,7 @@
     font-size: 14px;
     margin: 0px;
     box-sizing: content-box;
+    /* font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; */
 }
 
 
@@ -704,9 +705,13 @@
 }
 
 .desk-slider-dot-container {
+    display: block;
+    box-sizing: border-box;
     margin: 10px -4px 0 4px;
     font-size: 12px;
     font-weight: 600;
+    height: 16px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 
 }
 
@@ -724,6 +729,10 @@
     font-size: 14px;
     margin-bottom: 7px;
 
+}
+
+.color-section {
+    margin-left: 4px;
 }
 
 .color-display {
@@ -865,7 +874,7 @@
 }
 
 .desk-right-row {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -939,7 +948,11 @@
 
 }
 
+.base-div-ul-wrapper {
+    display: block;
+    box-sizing: content-box;
 
+}
 
 .straight-filter-section-ul {
 
@@ -952,7 +965,7 @@
     list-style: none;
     box-sizing: content-box;
 
-    width: 255px;
+    /* width: 255px;
     background-color: #fff;
     position: absolute;
     top: 33px;
@@ -963,7 +976,7 @@
     display: none;
     border: 1px solid #d4d5d9;
     border-top: none;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, .08);
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, .08); */
 
 }
 
@@ -988,7 +1001,11 @@
     font-weight: 400;
     margin: 0;
     display: inline-block;
+    overflow: visible;
+
     padding-left: 0;
+    font-weight: normal;
+    /* background-color: red; */
 }
 
 .desk-arrow-arrowbold {
@@ -1001,4 +1018,632 @@
     transform: scale(.8);
     margin-left: 4px;
     vertical-align: middle;
+}
+
+.desk-card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding-top: 24px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-sizing: content-box;
+
+}
+
+.card-width-max-section {
+    display: block;
+    width: 100%;
+    box-sizing: content-box;
+
+}
+
+
+
+.desk-card-section-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 -10px 0 3px;
+    padding-left: 0;
+    box-sizing: content-box;
+    list-style: none;
+
+}
+
+.desk-single-card-li {
+    box-sizing: border-box;
+    margin: 0 10px 30px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    width: 210px;
+    text-align: left;
+}
+
+.desk-product-f-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 210px;
+    background-color: #282c3f;
+    visibility: hidden;
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+.desk-product-watermark-ad {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #a9abb3;
+    border-radius: 2px;
+    top: 9px;
+    right: 10px;
+    padding: 0 2px;
+    font-size: 10px;
+    color: #fff;
+    z-index: 1;
+}
+
+.desk-card-full-block {
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.desk-card-image-container {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 210px;
+    height: 280px;
+
+}
+
+.desk-card-img-wrapper {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgb(255, 237, 243); */
+    background: rgb(255, 242, 223);
+}
+
+.desk-card-width-max-block {
+    display: block;
+    box-sizing: border-box;
+    height: 280px;
+    width: 100%;
+}
+
+.card-img-responsive-div {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-responsive-div img {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.desk-card-information-div {
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    background: #fff;
+    padding: 0 10px;
+    height: 100%;
+    margin-top: 12px;
+
+}
+
+.desk-product-header {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0px;
+}
+
+.desk-product-mini-header {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.desk-card-product-money {
+
+    display: block;
+    margin: 10px 0 6px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+}
+
+.desk-money-money {
+    box-sizing: border-box;
+}
+
+.desk-price-discounted {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+
+}
+
+.desk-price-linethrough {
+    box-sizing: border-box;
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.desk-price-off {
+    box-sizing: border-box;
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.desk-few-left-text {
+    display: block;
+    color: #ff5722;
+    font-weight: 700;
+    text-align: left;
+    font-size: 12px;
+}
+
+/* #mountRoot > div > main > div:nth-child(3) > div.search-leftContainer.column-base > section > div > div:nth-child(5){
+    margin-top:10px;
+} */
+
+.desk-product-ratings {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 0 0 0 4px;
+    background-color: hsla(0, 0%, 100%, .8);
+    z-index: 1;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 250px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.myntra-star-desk-icon {
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+    background-position: -171px -28px;
+    width: 24px;
+    height: 24px;
+    transform: scale(.55);
+    margin-left: -2px;
+    box-sizing: border-box;
+}
+
+
+.desk-product-rating-count {
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    padding-right: 4px;
+
+}
+
+
+
+.desk-price-margin-div {
+    display: block;
+    margin-top: -0.5px;
+    margin-left: -2px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    font-size: 10px
+}
+
+.desk-uotooff {
+    display: block;
+    box-sizing: content-box;
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    right: 0;
+
+}
+
+.desk-free-arrow {
+    display: block;
+    box-sizing: content-box;
+    width: 0;
+    height: 0;
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 14px solid #fff;
+}
+
+.desk-text-upto {
+    display: inline-block;
+    box-sizing: content-box;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    margin-block-end: 0;
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+
+}
+
+.desk-pagination-showmore {
+    display: block;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.pagination-cwrapper-ul {
+    display: block;
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid #edebef;
+    padding-top: 24px;
+    padding-bottom: 60px;
+    color: #282c3f;
+    padding-left: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.pagination-desk-page1-text-li {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 9px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 2px;
+    pointer-events: none;
+    opacity: .6;
+
+}
+
+.pagination-desk-double-arrow {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    width: 16px;
+    height: 8px;
+    margin-right: 8px;
+
+}
+
+.pagination-desk-double-arrow::before {
+    display: block;
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border: solid #282c3f;
+    border-width: 2px 2px 0 0;
+    transform: rotate(224deg);
+    left: 0;
+
+
+}
+
+.pagination-desk-double-arrow::after {
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border: solid #282c3f;
+    border-width: 2px 2px 0 0;
+    transform: rotate(224deg);
+    left: 8px;
+
+}
+
+.pagination-desk-previous {
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid #d4d5d9;
+    text-align: center;
+    margin-right: 64px;
+    padding: 10px 22px;
+}
+
+.desk-pag-arrow-left {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: solid #282c3f;
+    border-width: 2px 2px 0 0;
+    margin-bottom: 1px;
+    transform: rotate(224deg);
+    margin-left: 2px;
+    margin-right: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.pagination-desk-pagenumber {
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 2px;
+    color: #535766;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-right: 10px;
+    cursor: default;
+    font-weight: 400;
+}
+
+.desk-pagination-next-text {
+    display: inline-block;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid #d4d5d9;
+    text-align: center;
+    margin-left: 64px;
+    padding: 10px 22px;
+    box-sizing: border-box;
+
+    font-weight: 700;
+}
+
+.desk-pag-next-arrow-right {
+    display: inline-block;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+    margin-right: 2px;
+    margin-left: 8px;
+    width: 8px;
+    height: 8px;
+    border: solid #282c3f;
+    border-width: 2px 2px 0 0;
+    margin-bottom: 1px;
+}
+
+.footer-start-section {
+    display: block;
+    box-sizing: content-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.desk-footer-empty-sec {
+    display: block;
+    box-sizing: content-box;
+    margin-top: 50px;
+}
+
+.footer-position-r {
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+
+
+}
+
+.desk-wrapp-footer {
+    display: block;
+    box-sizing: content-box;
+
+}
+
+.footer-desk-style {
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+    z-index: 5;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+
+
+
+}
+
+.desk-footer-container {
+    display: block;
+    box-sizing: content-box;
+    max-width: 1080px;
+    margin: auto;
+    min-width: 980px;
+}
+
+.foot-padding-before-block {
+    display: block;
+    box-sizing: content-box;
+}
+
+.foot-core-container {
+    display: block;
+    box-sizing: content-box;
+    padding: 20px 0 60px;
+    color: #535766;
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.desk-right-side-price-container {
+    display: block;
+    box-sizing: content-box;
+    font-size: 12px;
+    float: right;
+    padding-left: 30px;
+    max-width: 380px;
+}
+
+.desk-men-tshirt-list {
+    display: block;
+    box-sizing: content-box;
+    margin-bottom: -10px;
+    margin-top: 30px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #696b79;
+    font-size: 16px;
+}
+
+.desk-right-side-price-container table {
+    display: table;
+    box-sizing: content-box;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+/* .desk-right-side-price-container thead{
+    display:table-header-group;
+    box-sizing: content-box;
+    vertical-align:middle;
+} */
+
+.desk-right-side-price-container th {
+    text-align: left;
+    padding: 8px;
+    box-sizing: content-box;
+}
+
+.desk-right-side-price-container tbody {
+    box-sizing: content-box;
+
+}
+
+.desk-right-side-price-container tr {
+    box-sizing: content-box;
+}
+
+.desk-right-side-price-container td {
+    text-align: left;
+    padding: 8px;
+    box-sizing: content-box;
+}
+
+.desk-right-side-price-container a {
+
+    background-color: transparent;
+    text-decoration: none;
+    color: #282c3f;
+    box-sizing: content-box;
+}
+
+.desk-right-side-price-container #td-id {
+    text-align: left;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.desk-index-date-text {
+    display: block;
+    box-sizing: content-box;
+    font-style: italic;
+    padding: 10px 0 0 6px;
+    font-weight: 700;
+}
+
+.desk-foot-left-sec-container {
+    display: block;
+    box-sizing: content-box;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: #7e818c;
+    width: 61%;
+}
+
+.desk-foot-left-sec-container p:first-child {
+    margin-top: 0;
+}
+
+
+
+.desk-foot-left-sec-container strong {
+
+
+    color: #696b79;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.desk-foot-left-sec-container p {
+    display: block;
+    box-sizing: content-box;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+.desk-foot-left-sec-container a {
+    font-weight: 700;
+    color: #7e818c;
+    text-decoration: none;
+    background-color: transparent;
 }
