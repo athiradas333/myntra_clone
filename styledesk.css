@@ -1065,6 +1065,9 @@
     box-sizing: content-box;
     list-style: none;
 
+
+    margin-bottom:46px;
+
 }
 
 .desk-single-card-li {
@@ -1461,6 +1464,7 @@
     box-sizing: border-box;
 
     font-weight: 700;
+    margin-right:9px;
 }
 
 .desk-pag-next-arrow-right {
@@ -1644,7 +1648,9 @@
     display: block;
     box-sizing: content-box;
     font-size: 14px;
-    line-height: 21px;
+
+    /* line-height: 21px; */
+
     margin-bottom: 14px;
     margin-top: 14px;
     font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
@@ -1680,7 +1686,9 @@
     box-sizing: content-box;
     font-size: 21px;
     font-weight: 700;
-    line-height: 31.5px;
+
+    /* line-height: 31.5px; */
+    
     margin-bottom: -10px;
     margin-top: 30px;
 }
