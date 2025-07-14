@@ -27,6 +27,14 @@
     font-family: Assistant;
 }
 
+
+.desktop{
+    display: contents !important;
+}
+
+.mobile-view{
+    display:none !important;
+}
 .header-wrapper {
     /* z-index:3; */
     padding-bottom: 25px;
@@ -1807,6 +1815,8 @@
     width: 250px;
     float: left;
 
+    margin-left:20px;
+
 
 }
 
@@ -1861,15 +1871,19 @@
     display: block;
     box-sizing: content-box;
     position: absolute;
-    margin-top: -15px;
+    /* margin-top: -15px; */
     background: #fafbfc;
     padding-right: 10px;
     color: #282c3f;
     font-size: 12px;
     font-weight: 700;
+    margin-top:-7px;
 
 
 }
+
+
+
 
 .desktop-search-link-p {
     display: block;
@@ -1889,6 +1903,11 @@
 .desktop-search-link-p>a:after {
     content: "|";
     margin-left: 3px;
+}
+
+
+.desktop-search-link-p>a:last-child:after {
+    content: "";
 }
 
 .desk-last-foot-sec {
