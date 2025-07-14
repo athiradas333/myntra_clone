@@ -1882,6 +1882,9 @@
 
 }
 
+
+
+
 .desktop-search-link-p {
     display: block;
     box-sizing: content-box;
@@ -1900,6 +1903,11 @@
 .desktop-search-link-p>a:after {
     content: "|";
     margin-left: 3px;
+}
+
+
+.desktop-search-link-p>a:last-child:after {
+    content: "";
 }
 
 .desk-last-foot-sec {
